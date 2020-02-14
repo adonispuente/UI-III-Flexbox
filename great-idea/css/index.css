@@ -9,7 +9,7 @@ a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
-dl, dt, dd, ol, ul, li,
+dl, dt, dd, ol,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed, 
@@ -30,8 +30,9 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	margin:auto;
 }
-ol, ul {
+ol {
 	list-style: none;
 }
 blockquote, q {
@@ -48,9 +49,7 @@ table {
 }
 
 /* Set every element's box-sizing to border-box */
-* {
-    box-sizing: border-box;
-}
+
 
 html, body {
     height: 100%;
@@ -64,3 +63,145 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.container {
+	display:flex;
+	justify-content: space-evenly;
+	flex-flow: row;
+	align-items:center;
+	padding-left: 2%;
+}
+
+.intro-container{
+	display:flex;
+	justify-content: space-around;
+	align-items:center;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+h1{
+	font-size:50px;
+	text-align:center;
+}
+
+button{
+	height:35px;
+	width:135px;
+	align-items:center;
+	margin-left:33px;
+}
+
+.FA{
+	display:flex;
+	height: 130px;
+	margin-top:20px;
+	justify-content: space-around;
+}
+
+.Features{
+width:40%;
+}
+
+
+.About{
+
+	width:40%;
+}
+
+.Mimg{
+display:flex;
+justify-content: center;
+}
+
+.PapaDiv{
+display:flex;
+justify-content: space-around;
+margin-top: 22px;
+margin-bottom: 30px;
+}
+
+.Services{
+	width:25%
+}
+
+.Product{
+	width:25%
+}
+
+.Vision{
+	width:25%
+}
+
+.Contact{
+	display:flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-content:space-around;
+	margin-left: 4%;
+	
+}
+.Bang{
+	text-align: center;
+}
+/* --------------------------------------------- */
+
+.phonepic{
+	display:flex;
+justify-content: center;
+}
+
+
+.Serv{
+	display:flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 2%;
+	padding: 3% 9% 2% 8%;
+	
+}
+
+.Gdaddy{
+	display:flex;
+	justify-content: space-around;
+	flex-wrap:wrap;
+	align-content:space-around;
+}
+
+.AD{
+	Width:35%;
+	border: 1px solid black;
+	background: lightgrey;
+	padding:1%;
+	margin:1%;
+	line-height:1.4;
+}
+
+.GradneDiv{
+	display:flex;
+	justify-content: space-around;
+	padding-left: 5%;
+	padding-right: 3%;
+}
+
+.babydiv{
+	width:46%;
+	line-height: 1.4;
+}
+
+.lonely{
+	width:46%;
+
+}
+
+
+.end{
+	text-align: center;
+}
+
+li{
+	margin-top:1%;
+}
+ul{
+
+}
